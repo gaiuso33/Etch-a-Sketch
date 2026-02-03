@@ -1,10 +1,17 @@
-body{
-    display:flex;
-    justify-content: center;
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  gap: 16px;
+  font-family: system-ui, sans-serif;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    width:200%;
+#grid {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  border: 1px solid #ccc;
+}
+.cell {
+  border: 1px solid rgba(0,0,0,0.05);
 }
